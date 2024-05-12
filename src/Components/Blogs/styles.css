@@ -1,0 +1,47 @@
+.blogs-container{
+    padding: 90px;
+}
+
+.blogs-content{
+    display: flex;
+    justify-content: space-between;
+}
+.blogs-content-text{
+    width:450px
+}
+
+.blogs-content-text h1{
+    font-weight: 700;
+    font-size: 29px;
+    margin-bottom: 90px;
+}
+
+.blogs-content-text p{
+    font-size: 16px;
+    letter-spacing: 7%;
+    font-weight: 700;
+}
+
+.blogs-best{
+    display: flex;
+    margin-top:40px;
+    gap:80px;
+    justify-content: space-evenly;
+}
+.blogs-best-card{
+    width: 300px;
+}
+
+.blogs-best-card h1{
+    font-weight: 700;
+    font-size: 29px;
+    height: 120px;
+}
+.blogs-best-card p{
+    font-size: 16px;
+    letter-spacing: 7%;
+    font-weight: 700;
+}
+.blogs-best-card img{
+    width:350px
+}

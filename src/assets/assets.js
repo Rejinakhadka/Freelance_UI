@@ -10,6 +10,10 @@ import girl from "./girl.png";
 import boy from "./boy.png";
 import users from "./users.png"
 import stars from "./Star 11.png";
+import corporateteam from "./corporateteam.png";
+import workingmen from "./workingmen.png";
+import building from "./building.png";
+import work from "./work.png";
 
 export const assets={
     comment,
@@ -23,5 +27,9 @@ export const assets={
     girl,
     boy,
     users,
-    stars
+    stars,
+    corporateteam,
+    workingmen,
+    work,
+    building
 }

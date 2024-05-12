@@ -9,6 +9,7 @@ import Savemoney from './Components/SaveMoney/Savemoney';
 import Features from './Components/Features/Features';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Reviews from './Components/Reviews/Reviews';
+import { Blogs } from './Components/Blogs/Blogs';
 
 const App = () => {
   const divStyle = {
@@ -29,6 +30,7 @@ const App = () => {
     <Features/>
     <Testimonials/>
     <Reviews/>
+    <Blogs/>
     </div>
    
     
