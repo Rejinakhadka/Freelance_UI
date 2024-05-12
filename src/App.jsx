@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Herosection from './Components/Hero/Herosection';
 import Company from './Components/Companies/Company';
 import Automated from './Components/Automated/Automated';
+import Cards from './Components/Cards/Cards';
 
 const App = () => {
   const divStyle = {
@@ -17,6 +18,7 @@ const App = () => {
     </div>
     <Company/>
     <Automated/>
+    <Cards/>
     </div>
    
     
