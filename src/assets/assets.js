@@ -6,6 +6,10 @@ import hand from "./hand.png"
 import blackstrokes from "./blackstrokes.png"
 import numbers from "./numbers.png"
 import charts from "./chart.png"
+import girl from "./girl.png";
+import boy from "./boy.png";
+import users from "./users.png"
+import stars from "./Star 11.png";
 
 export const assets={
     comment,
@@ -15,5 +19,9 @@ export const assets={
     hand,
     blackstrokes,
     numbers,
-    charts
+    charts,
+    girl,
+    boy,
+    users,
+    stars
 }

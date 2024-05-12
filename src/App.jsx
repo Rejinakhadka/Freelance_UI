@@ -7,6 +7,8 @@ import Cards from './Components/Cards/Cards';
 import Whychooseus from './Components/Whychooseus/Whychooseus';
 import Savemoney from './Components/SaveMoney/Savemoney';
 import Features from './Components/Features/Features';
+import Testimonials from './Components/Testimonials/Testimonials';
+import Reviews from './Components/Reviews/Reviews';
 
 const App = () => {
   const divStyle = {
@@ -25,6 +27,8 @@ const App = () => {
     <Whychooseus/>
     <Savemoney/>
     <Features/>
+    <Testimonials/>
+    <Reviews/>
     </div>
    
     
