@@ -1,0 +1,57 @@
+
+.automated-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px;
+}
+
+
+.automated-text {
+  width: 400px;
+}
+
+
+.automated-description {
+
+}
+
+.automated-text h1 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.automated-text p {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.automated-description {
+  border-radius: 25px;
+  opacity: 0.3px;
+  background: #c4c4c4;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.automated-description p {
+  padding: 50px;
+  margin: 0;
+  width: 300px;
+
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
