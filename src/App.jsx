@@ -6,6 +6,7 @@ import Automated from './Components/Automated/Automated';
 import Cards from './Components/Cards/Cards';
 import Whychooseus from './Components/Whychooseus/Whychooseus';
 import Savemoney from './Components/SaveMoney/Savemoney';
+import Features from './Components/Features/Features';
 
 const App = () => {
   const divStyle = {
@@ -23,6 +24,7 @@ const App = () => {
     <Cards/>
     <Whychooseus/>
     <Savemoney/>
+    <Features/>
     </div>
    
     
