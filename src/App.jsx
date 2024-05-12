@@ -13,6 +13,8 @@ import { Blogs } from "./Components/Blogs/Blogs";
 
 import Frequently from "./Components/Frequently/Frequently";
 import Discover from "./Components/Discover/Discover";
+import Footer from "./Components/Footer/Footer";
+import CopyrightNotice from "./Components/CopyRight/Copyright";
 
 const App = () => {
   const divStyle = {
@@ -36,6 +38,8 @@ const App = () => {
       <Blogs />
       <Frequently />
       <Discover />
+      <Footer/>
+      <CopyrightNotice/>
     </div>
   );
 };

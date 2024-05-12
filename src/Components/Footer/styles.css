@@ -1,0 +1,45 @@
+.footer-container{
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+    gap:80px;
+    box-shadow: inset 0px -10px 10px -10px rgba(0, 0, 0, 0.2);
+}
+.footer-content h1{
+    font-weight: 700;
+    font-size: 21px;
+  color: #181433;
+
+}
+
+.footer-content p{
+    color: #757095;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -2%;
+
+}
+
+.footer-list{
+    color: #181433;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.footer-content button{
+    background-color: #3734A9;
+    color:white;
+    border:none;
+    
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-container input{
+    background-color: #EEEEFF;
+    border:none;
+    padding: 10px 20px 10px 20px;
+
+}
+
