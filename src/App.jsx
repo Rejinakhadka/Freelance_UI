@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Herosection from './Components/Hero/Herosection';
+import Company from './Components/Companies/Company';
 
 const App = () => {
   const divStyle = {
@@ -8,10 +9,15 @@ const App = () => {
   };
 
   return (
-    <div style={divStyle}>
+    <div>
+       <div style={divStyle}>
       <Navbar />
       <Herosection />
     </div>
+    <Company/>
+    </div>
+   
+    
   );
 };
 
