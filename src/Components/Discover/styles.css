@@ -1,0 +1,33 @@
+.discover-container{
+    background-color:  #3734A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+    height: 200px;
+    border-radius: 25px
+    ;
+}
+
+.discover-content{
+    justify-content: center;
+    text-align: center;
+}
+.discover-content h1{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 61px;
+    letter-spacing: -3%;
+    color: white;
+    width:700px
+}
+
+.discover-content button{
+
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    background: #FF7F5C;
+    color: white;
+    border: none;
+
+}
