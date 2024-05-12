@@ -14,6 +14,7 @@ import corporateteam from "./corporateteam.png";
 import workingmen from "./workingmen.png";
 import building from "./building.png";
 import work from "./work.png";
+import plus from "./plus.png"
 
 export const assets={
     comment,
@@ -31,5 +32,6 @@ export const assets={
     corporateteam,
     workingmen,
     work,
-    building
+    building,
+    plus
 }

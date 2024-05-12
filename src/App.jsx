@@ -11,6 +11,8 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import Reviews from './Components/Reviews/Reviews';
 import { Blogs } from './Components/Blogs/Blogs';
 
+import Frequently from './Components/Frequently/Frequently';
+
 const App = () => {
   const divStyle = {
     backgroundImage: 'linear-gradient(to right, #62BADA 0%, #C9E7F2 100%)'
@@ -31,6 +33,7 @@ const App = () => {
     <Testimonials/>
     <Reviews/>
     <Blogs/>
+ <Frequently/>
     </div>
    
     
