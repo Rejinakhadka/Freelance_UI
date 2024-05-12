@@ -1,0 +1,70 @@
+
+
+.savemoney-container {
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+  }
+  
+  .savemoney-content {
+    width: 450px;
+  }
+  
+  .savemoney-content h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    letter-spacing: -3%;
+  }
+  
+  .savemoney-content p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #64607D;
+  }
+  
+  .total-balance{
+    position: relative;
+    width: 486px;
+    height: 540px;
+    background-color:#DBF1FA ;
+  }
+
+  .totalbalance-card{
+    position: relative;
+    top:200px;
+    left: -100px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px;
+    width: 300px;
+  }
+  .total-balance-span {
+    font-family: Manrope;
+    font-size: 18.03px;
+    font-weight: 400;
+    line-height: 24.63px;
+    text-align: left;
+    color: #00E1F0;
+  
+  }
+  
+  .savemoney-description{
+    border-radius: 25px;
+    opacity: 0.3px;
+    background: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .savemoney-description p{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+  }
+  

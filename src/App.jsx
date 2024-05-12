@@ -4,6 +4,8 @@ import Herosection from './Components/Hero/Herosection';
 import Company from './Components/Companies/Company';
 import Automated from './Components/Automated/Automated';
 import Cards from './Components/Cards/Cards';
+import Whychooseus from './Components/Whychooseus/Whychooseus';
+import Savemoney from './Components/SaveMoney/Savemoney';
 
 const App = () => {
   const divStyle = {
@@ -19,6 +21,8 @@ const App = () => {
     <Company/>
     <Automated/>
     <Cards/>
+    <Whychooseus/>
+    <Savemoney/>
     </div>
    
     
