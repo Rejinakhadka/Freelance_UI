@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="right-section" style={{ gap:"12px", alignContent:"center", textAlign:"center"}}>
+      <div className="right-section" style={{ gap:"24px", display: "flex",alignContent:"center", textAlign:"center", alignItems:"center"}}>
         <a href="#">Sign In</a>
         <button>Start Free</button>
       </div>

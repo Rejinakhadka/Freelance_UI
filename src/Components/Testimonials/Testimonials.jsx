@@ -57,7 +57,7 @@ const Testimonials = () => {
           heard oh ought. His defective nor convinced residence own.
         </p>
       </div>
-      <div className="testimonials">
+      <div className="testimonials" style={{marginTop:"60px"}}>
         {testimonialsData.map((testimonial) => (
           <div className="testimonials-box" key={testimonial.id}>
           <img src={assets.comment} className="comment-icon "/>

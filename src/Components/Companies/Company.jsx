@@ -26,7 +26,7 @@ const Company = () => {
       <div className="company-text">Over 32k+ software businesses growing with AR Shakir.</div>
       <div className="images-container">
         {images.map((image, index) => (
-          <img key={index} src={image.src} alt={image.alt} style={{ width: '130px' }} />
+          <img key={index} src={image.src} alt={image.alt} style={{ width: '100px' }} />
         ))}
       </div>
     </div>

@@ -34,7 +34,7 @@ const faqData = [
 const Frequently = () => {
   return (
     <div className="faq-container">
-      <div style={{fontSize:'71px',fontWeight:"800",letterSpacing:"-3%", lineHeight:"76px", width:"500px"}}>Frequently asked questions</div>
+      <div style={{fontSize:'61px',fontWeight:"800",letterSpacing:"-3%", lineHeight:"76px", width:"500px"}}>Frequently asked questions</div>
       <div style={{display:"flex", gap:"10px", marginTop:"30px",width:"100%", justifyContent:'space-between'}}>
        <div  >
         {faqData.map((faq, index) => (

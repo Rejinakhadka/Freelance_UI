@@ -1,16 +1,18 @@
 .herosection-container {
-    padding: 90px;
+   
     display: flex;
     justify-content: space-between;
+    padding: 90px 90px 0px 90px;
   }
   
   .herosection-text h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
     line-height: 70px;
     letter-spacing: -0.03em;
     color: #000;
     width: 500px;
+  
   }
   
   .herosection-text p {
@@ -33,13 +35,13 @@
   }
   
   .herosection-image img {
-    height: 500px;
+    height: 700px;
   }
   
   .flex-container {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 52px;
   }
   
   .see-how-it-works {
@@ -53,6 +55,7 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
+   align-content: center;
     width: 400px;
   }
   

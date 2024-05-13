@@ -39,7 +39,7 @@ const Trackpayments = () => {
           backgroundColor: "#DBF1FA",
           padding: "60px",
           position: "relative",
-          width: "400px",
+          width: "450px",
           height: "640px",
         }}
       >
@@ -49,7 +49,7 @@ const Trackpayments = () => {
             style={{
               backgroundColor: "#FFFFFF",
               width: "433px",
-              height: "95px",
+              height: "65px",
               borderRadius: "10px",
               boxShadow:
                 "0px 3px 5px rgba(0, 0, 0, 0.2), 0px 14px 10px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.14)",
@@ -69,7 +69,7 @@ const Trackpayments = () => {
                   ? "70%"
                   : index * 160 + "px",
 
-              left: index === 1 ? "40%" : index === 2 ? "30%" : "unset",
+              left: index === 1 ? "30%" : index === 2 ? "20%" : "unset",
             }}
           >
             <img

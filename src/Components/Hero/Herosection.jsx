@@ -13,7 +13,7 @@ const Herosection = () => {
         <div className="flex-container">
           <button className="herosection-button">Get Started</button>
           <p className="see-how-it-works">
-            <img src={Polygon} alt="Polygon" /> See How it Works
+            <img src={Polygon} style={{width:"50px"}} alt="Polygon" /> See How it Works
           </p>
         </div>
         <div className="tick-container">

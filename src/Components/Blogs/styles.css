@@ -13,7 +13,7 @@
 .blogs-content-text h1{
     font-weight: 700;
     font-size: 29px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 
 .blogs-content-text p{
@@ -24,8 +24,9 @@
 
 .blogs-best{
     display: flex;
-    margin-top:40px;
+    margin-top:90px;
     gap:80px;
+    cursor: pointer;
     justify-content: space-evenly;
 }
 .blogs-best-card{

@@ -23,15 +23,7 @@ const Automated = () => {
             <div style={{marginTop:"20px"}}>-Mike Taylor</div>
           </p>
         </div>
-        <img src={assets.comment} style={{ width: "50px", marginTop: "-5%",marginLeft:"30px", position: "absolute", zIndex: "1" }} />
-        <div className="automated-description">
-          <p>
-            Wise busy past both park when an ye no. Nay likely her length sooner
-            thrown sex lively income. The expense windows adapted sir. Wrong
-            widen.
-            <div style={{marginTop:"20px"}}>-Mike Taylor</div>
-          </p>
-        </div>
+      
       </div>
     </div>
   );

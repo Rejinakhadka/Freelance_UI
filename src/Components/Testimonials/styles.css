@@ -36,6 +36,7 @@
     font-weight: 600;
     font-size: 25px;
     line-height: 26px;
+    position: relative;
   }
   .testimonials{
     display: flex;
@@ -47,10 +48,10 @@
 
   .comment-icon {
     position: absolute;
-    top: -10px;
+    top: 20px;
     left: 5%;
-   overflow: visible;
+
     width: 40px;
     height: 40px;
-    z-index: 1;
+   
   }

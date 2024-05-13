@@ -1,5 +1,6 @@
 .reviews-container{
     background-color:  #3734A9;
+    margin-top: 100px;
     
 }
 
@@ -11,12 +12,12 @@
 .reviews h1{
     font-weight: 800;
     color: white;
-    font-size: 62px;
+    font-size: 52px;
     letter-spacing: -2%;
 }
 
 .reviews p{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
 }
