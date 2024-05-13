@@ -3,6 +3,7 @@ import Hands from "../../assets/Hands.png";
 import Polygon from "../../assets/Polygon 2.png";
 import tick from "../../assets/tick.png";
 import "./styles.css";
+import { assets } from '../../assets/assets';
 
 const Herosection = () => {
   return (
@@ -26,6 +27,8 @@ const Herosection = () => {
       <div className="herosection-image">
         <img src={Hands} alt="Hands" />
       </div>
+      <img src={assets.blackbirds} style={{position:"absolute" , top:"200px",right:"20px"}}/>
+      <img src={assets.blackstrokes} style={{position:"absolute" , top:"700px",left:"20px"}}/>
     </div>
   );
 };

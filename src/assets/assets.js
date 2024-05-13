@@ -23,7 +23,9 @@ import woman from "./woman.png";
 import girl2 from "./girl (2).png";
 import thinkingboy from "./thinkingboy.png";
 import laughingboy from "./laughingboy.png";
-
+import blackbirds from "./blackbirds.png";
+import orange from "./orangeecllipse.png";
+import green from "./greenecllipse.png";
 
 export const assets={
     comment,
@@ -50,5 +52,8 @@ export const assets={
     woman,
     thinkingboy,
     girl2,
-    laughingboy
+    laughingboy,
+    blackbirds,
+    orange,
+    green
 }

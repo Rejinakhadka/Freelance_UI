@@ -28,36 +28,19 @@ const Trackpayments = () => {
 
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        padding: "90px",
-      }}
+      className="track-container"
     >
       <div
-        style={{
-          backgroundColor: "#DBF1FA",
-          padding: "60px",
-          position: "relative",
-          width: "450px",
-          height: "640px",
-        }}
+       className="track-content"
       >
+      <img src={assets.orange} />
         {cardsData.map((card, index) => (
           <div
             key={index}
+            className="track-cards"
             style={{
-              backgroundColor: "#FFFFFF",
-              width: "433px",
-              height: "65px",
-              borderRadius: "10px",
-              boxShadow:
-                "0px 3px 5px rgba(0, 0, 0, 0.2), 0px 14px 10px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.14)",
-              display: "flex",
-              alignItems: "center",
-              padding: "20px",
-              marginBottom: "20px",
-              position: "absolute",
+             
+
               top:
                 index === 0
                   ? "10%"
@@ -69,7 +52,7 @@ const Trackpayments = () => {
                   ? "70%"
                   : index * 160 + "px",
 
-              left: index === 1 ? "30%" : index === 2 ? "20%" : "unset",
+              left: index === 1 ? "30%" : index === 2 ? "20%" :index ===0 ?"7%" :index ===3 ?"9%" :"unset",
             }}
           >
             <img
@@ -77,12 +60,13 @@ const Trackpayments = () => {
               alt={`Image ${index + 1}`}
               style={{ width: "50px" }}
             />
-            <div style={{ marginLeft: "40px" }}>
+            <div className="track-cards-text" >
               <h2>{card.heading}</h2>
               <p>{card.paragraph}</p>
             </div>
           </div>
         ))}
+        <img src={assets.green} style={{ position: "absolute", bottom: "0px", left: "0px" }} />
       </div>
       <div className="whychooseus-container">
         <h2>WHY CHOOSE US</h2>
