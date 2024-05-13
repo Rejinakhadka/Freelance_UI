@@ -4,7 +4,7 @@ import Herosection from "./Components/Hero/Herosection";
 import Company from "./Components/Companies/Company";
 import Automated from "./Components/Automated/Automated";
 import Cards from "./Components/Cards/Cards";
-import Whychooseus from "./Components/Whychooseus/Whychooseus";
+
 import Savemoney from "./Components/SaveMoney/Savemoney";
 import Features from "./Components/Features/Features";
 import Testimonials from "./Components/Testimonials/Testimonials";
@@ -15,6 +15,7 @@ import Frequently from "./Components/Frequently/Frequently";
 import Discover from "./Components/Discover/Discover";
 import Footer from "./Components/Footer/Footer";
 import CopyrightNotice from "./Components/CopyRight/Copyright";
+import Trackpayments from "./Components/TrackPayments/Trackpayments";
 
 const App = () => {
   const divStyle = {
@@ -30,7 +31,7 @@ const App = () => {
       <Company />
       <Automated />
       <Cards />
-      <Whychooseus />
+      <Trackpayments/>
       <Savemoney />
       <Features />
       <Testimonials />
@@ -40,6 +41,7 @@ const App = () => {
       <Discover />
       <Footer/>
       <CopyrightNotice/>
+   
     </div>
   );
 };

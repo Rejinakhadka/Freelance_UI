@@ -15,6 +15,15 @@ import workingmen from "./workingmen.png";
 import building from "./building.png";
 import work from "./work.png";
 import plus from "./plus.png"
+import linkedin from "./052-linkedin.png"
+import messenger from "./messenger.png";
+import twitter from "./twitter.png";
+import eight from "./eight.png";
+import woman from "./woman.png";
+import girl2 from "./girl (2).png";
+import thinkingboy from "./thinkingboy.png";
+import laughingboy from "./laughingboy.png";
+
 
 export const assets={
     comment,
@@ -33,5 +42,13 @@ export const assets={
     workingmen,
     work,
     building,
-    plus
+    plus,
+    linkedin,
+    messenger,
+    twitter,
+    eight,
+    woman,
+    thinkingboy,
+    girl2,
+    laughingboy
 }

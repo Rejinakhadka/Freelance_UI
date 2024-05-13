@@ -1,0 +1,58 @@
+.whychooseus-container{
+    width: 400px;
+
+}
+.whychooseus-container p{
+    font-size: 19px;
+    letter-spacing: -2%;
+   color:  #505887;
+}
+.whychooseus-container h1{
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: -3%;
+}
+
+.whychooseus-container h2{
+    color: #3734A9;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+.line {
+    width: 400px; 
+    height: 2px;
+    background-color: #c4c4c4; 
+    margin-top: 20px;
+  }
+  .checklist {
+
+    padding: 20px; 
+  }
+
+  .checklist p{
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: -2%;
+   color:  #505887;
+
+
+  }
+  
+
+
+.checkmark {
+    display: inline-block; 
+    margin-right: 10px; 
+    color: white;
+    background-color: #fdbc64; 
+    border-radius: 100%;
+    padding: 6px; 
+   
+  }
+  
+
+ 
+  

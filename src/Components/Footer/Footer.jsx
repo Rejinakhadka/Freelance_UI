@@ -1,10 +1,17 @@
 import React, { useState } from "react";
 import "./styles.css";
+import { assets } from "../../assets/assets";
 
 const footerSections = [
   {
     title: "AR Shakir",
-    content: "Finance helps companies manage payments easily."
+    content: "Finance helps companies manage payments easily.",
+    images: [
+      assets.linkedin,
+      assets.messenger,
+      assets.twitter,
+      assets.eight
+    ]
   },
   {
     title: "Company",
@@ -47,14 +54,8 @@ const Footer = () => {
                 value={email}
                 onChange={handleInputChange}
                 placeholder="Your email address"
-               
               />
-              <button
-                type="submit"
-              
-              >
-                Subscribe
-              </button>
+              <button type="submit">Subscribe</button>
               <p>{section.content}</p>
             </form>
           ) : (
@@ -68,6 +69,14 @@ const Footer = () => {
                 </div>
               )}
             </>
+          )}
+  
+          {section.images && (
+            <div style={{display:"flex", gap:"22px", marginTop:"50px", cursor:"pointer"}}>
+              {section.images.map((image, idx) => (
+                <img src={image} alt={`Image ${idx}`} key={idx} />
+              ))}
+            </div>
           )}
         </div>
       ))}
